@@ -1,0 +1,12 @@
+[package]
+name = "Sakanade"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.29.0"
+ratatui = "0.30.2"
+portable-pty = "0.9.0"
+vt100 = "0.16.2"
+rodio = { version = "0.20.1", default-features = false, features = ["symphonia-mp3"] }
+anyhow = "1.0.104"
